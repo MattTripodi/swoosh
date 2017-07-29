@@ -15,10 +15,10 @@
         </array>
     </customFonts>
     <scenes>
-        <!--View Controller-->
+        <!--WelcomeVC-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Swoosh" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="WelcomeVC" customModule="Swoosh" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -96,10 +96,10 @@
             </objects>
             <point key="canvasLocation" x="117.59999999999999" y="123.68815592203899"/>
         </scene>
-        <!--View Controller-->
+        <!--LeagueVC-->
         <scene sceneID="Tx4-hn-emJ">
             <objects>
-                <viewController id="MFQ-N4-s0F" sceneMemberID="viewController">
+                <viewController id="MFQ-N4-s0F" customClass="LeagueVC" customModule="Swoosh" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="RZ2-3T-dew">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -212,10 +212,10 @@
             </objects>
             <point key="canvasLocation" x="853.60000000000002" y="123.68815592203899"/>
         </scene>
-        <!--View Controller-->
+        <!--SkillVC-->
         <scene sceneID="Put-ms-mmT">
             <objects>
-                <viewController id="c8C-TX-kZj" sceneMemberID="viewController">
+                <viewController id="c8C-TX-kZj" customClass="SkillVC" customModule="Swoosh" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8zf-qF-68b">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -302,7 +302,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ed5-7l-JCE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1538.4000000000001" y="123.68815592203899"/>
+            <point key="canvasLocation" x="1599" y="124"/>
         </scene>
     </scenes>
     <resources>
